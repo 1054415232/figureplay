@@ -18,7 +18,7 @@ public class Judger {
 
 	public void startGame() {
 		System.out.println("*******************");
-		System.out.println("******猜拳，开始******");
+		System.out.println("*****猜拳，开始****");
 		System.out.println("*******************");
 		System.out.println("出拳规则：1.剪刀2.石头3.布");
 	}
