@@ -1,25 +1,27 @@
 package cn.edu.qdu.game;
 
 abstract class Player {
-	     String listcontent;
-        abstract String inputName();
-        abstract int myFist();
-        
-        public String content(int list) {
-        	switch (list) {
-    		case 1:
-    			listcontent = "剪刀";
-    			break;
-    		case 2:
-    			listcontent = "石头";
-    			break;
-    		case 3:
-    			listcontent = "布";
-    			break;
-    		default:
-    			System.out.println("error");
-    			break;
-    		}
-			return listcontent;
+	String listcontent;
+
+	abstract String inputName();
+
+	abstract int myFist();
+
+	public String content(int list) {
+		switch (list) {
+		case 1:
+			listcontent = "剪刀";
+			break;
+		case 2:
+			listcontent = "石头";
+			break;
+		case 3:
+			listcontent = "布";
+			break;
+		default:
+			System.out.println("error");
+			break;
 		}
+		return listcontent;
+	}
 }

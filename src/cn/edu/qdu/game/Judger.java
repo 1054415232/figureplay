@@ -11,7 +11,7 @@ public class Judger {
 	int pf = 0;// 玩家数字
 	int cf = 0;// 随机数字
 	String yourlist, computerlist;
-	int count = 0;
+	int count = 0;//次数
 
 	Person person = new Person();
 	Computer computer = new Computer();
@@ -70,13 +70,11 @@ public class Judger {
 		System.out.println("姓名\t得分");
 		System.out.println(yourname + "\t" + yournum);
 		System.out.println(computername + "\t" + computernum);
-		if (yournum>computernum) {
+		if (yournum > computernum) {
 			System.out.println("结果为：真乃神人也！");
-		}
-		else if(yournum==computernum){
+		} else if (yournum == computernum) {
 			System.out.println("结果为：平分秋色！");
-		}
-		else {
+		} else {
 			System.out.println("结果为：呵呵，笨笨，下次加油啊！");
 		}
 	}

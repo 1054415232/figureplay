@@ -32,9 +32,9 @@ public class Computer extends Player {
 
 	@Override
 	public int myFist() {
-		//生成1-3之间的随机数，包括3
+		// 生成1-3之间的随机数，包括3
 		Random rand = new Random();
-		gamelist = rand.nextInt(3)+1;	
+		gamelist = rand.nextInt(3) + 1;
 		return gamelist;
-	}	
+	}
 }
